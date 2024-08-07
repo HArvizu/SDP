@@ -251,7 +251,7 @@ public class Intro_Page extends JFrame {
         JPanel loginPanel = new JPanel();
         loginPanel.setLayout(new BorderLayout());
         loginPanel.add(welcomeLabel, BorderLayout.NORTH);
-
+/*
         // Load the image using getResource() to ensure it works inside a JAR file
         // Adjusted width, maintains aspect ratio
         ImageIcon imageIcon = new ImageIcon(Intro_Page.class.getResource("/project_pic.png")); // Change ImageLoader to Intro_Page
@@ -259,7 +259,7 @@ public class Intro_Page extends JFrame {
         Image scaledImage = image.getScaledInstance(290, -1, Image.SCALE_SMOOTH);
         ImageIcon scaledImageIcon = new ImageIcon(scaledImage);
         JLabel imageLabel = new JLabel(scaledImageIcon);
-        loginPanel.add(imageLabel, BorderLayout.CENTER);
+        loginPanel.add(imageLabel, BorderLayout.CENTER);*/
 
         loginPanel.add(buttonStatementPanel, BorderLayout.SOUTH);
         
